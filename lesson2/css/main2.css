@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section1 {
+    display: block;
+    background-color: lightblue;
+    grid-column:1;
+}
+
+.section2 {
+    display: block;
+    background-color: lightblue;
+    grid-column: 2;
+}
+
+.section3 {
+    display: block;
+    background-color: lightblue;
+    grid-column: 3;
+}
+
+h2 {
+    font-size: 4000px;
+}
