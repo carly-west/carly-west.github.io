@@ -30,7 +30,8 @@ img {
 }
 
 .main-body {
-    background-color: #90CCF4;
+    background-color: #C7E5F4;
+
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -77,12 +78,12 @@ a:hover {
 }
 
 footer {
-    background-color: #C7E5F4;
+    
     padding: 1rem;
     line-height:1;
     font-size: 80%;
     padding-bottom: .5rem;
-
+    background-color: #90CCF4;
     border-radius: 1%;
 }
 
