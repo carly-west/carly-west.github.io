@@ -7,12 +7,9 @@
     }
 
     nav ul li {
-        /* display: flex; */
         flex: 1 1 100%;
         text-align: center;
     }
-    
-
 }
 
 header {
