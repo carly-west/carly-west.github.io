@@ -50,6 +50,11 @@
     }
 
     h2 {
-        padding-top: 20px;
+        padding-top: 0px;
+        font-size: 2rem;
+    }
+
+    .content-box {
+        font-size: 1.2rem;
     }
 }
