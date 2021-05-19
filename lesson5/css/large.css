@@ -1,0 +1,48 @@
+@media only screen and (min-width: 64rem) {
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    
+
+    /* Weather Summary */
+    .home-image {
+        max-width: 100%;
+        position: relative;
+
+    }
+    
+    .weather-summary {
+        padding: 18px;
+        border-radius: 5px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #4D98D1;
+        position: absolute;
+        top: 20rem;
+        left: 11rem;
+        max-width: 10em;
+
+    }
+    
+    .weather-summary h3 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .weather-summary p{
+        padding-top: 10px;
+        font-size: .9rem;
+    }
+
+
+}
