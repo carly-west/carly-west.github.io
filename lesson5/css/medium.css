@@ -1,4 +1,5 @@
 @media only screen and (min-width: 32.5em) {
+
     /* Navigation */
     .navigation li:first-child {
         display: none;
@@ -57,4 +58,9 @@
     .content-box {
         font-size: 1.2rem;
     }
+
+    .forcast-day {
+        margin-left: 15px;
+}
+
 }

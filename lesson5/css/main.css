@@ -1,11 +1,15 @@
-
-
-h1, h2, h3, h4, a {
+h1,
+h2,
+h3,
+h4,
+a {
     font-family: 'Libre Baskerville', serif;
 
 }
 
-p, footer, .content-box {
+p,
+footer,
+.content-box {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -33,9 +37,10 @@ footer {
 
 /* header */
 
-header h1, p {
+header h1,
+p {
     text-align: center;
-    margin:0;
+    margin: 0;
 }
 
 header {
@@ -45,26 +50,23 @@ header {
 .header img {
     max-width: 8rem;
     float: left;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .header h1 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     position: relative;
-    padding-top: 20px;
+    padding-top: 30px;
 
 }
 
 header p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
-    margin-left: 25px;
-    /* margin-top: 35px; */
     padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     padding-right: 11px;
 }
-
 
 
 
@@ -72,15 +74,16 @@ header p {
 /* mobile */
 
 .navigation li:first-child {
-    display:block;
+    display: block;
 }
+
 .navigation li {
     display: none;
 }
 
 
 .content-box {
-    background-color:gray;
+    background-color: gray;
 }
 
 nav {
@@ -89,6 +92,7 @@ nav {
     padding: 0;
 
 }
+
 nav li a {
     color: white;
     text-decoration: none;
@@ -96,14 +100,15 @@ nav li a {
     color: #E2EEF3;
     font-size: 1.3rem;
 }
+
 nav ul li {
-    padding:10px;
+    padding: 10px;
     display: block;
 }
 
 nav ul {
     list-style-type: none;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
 
@@ -115,21 +120,21 @@ nav ul {
 /* responsive nav */
 .responsive li {
     display: block;
-} 
+}
 
 
 nav ul li.active a {
     background-color: rgb(8, 145, 236);
 }
 
-  /* normal */
+/* normal */
 
 nav ul li:hover {
     background-color: #8F8f8f;
-  }
+}
 
 body {
-    margin:0;
+    margin: 0;
 
 }
 
@@ -163,6 +168,40 @@ body {
     margin: 0;
 }
 
-.weather-summary p{
+.weather-summary p {
     padding-top: 10px;
 }
+
+
+/* 5-day Forcast */
+
+
+
+.forcast {
+
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.forcast-day {
+    margin-left: 5px;
+    background-color: #4D98D1;
+    flex: 1 1 auto;
+}
+
+.fiveday {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.forcast p{
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.forcast-day h4 {
+    margin-top: 20px;
+}
+

@@ -1,72 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/large.css" rel="stylesheet">
-    <link href="css/medium.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Work+Sans&display=swap" rel="stylesheet">  
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    
-    <header>
-  
-      <div class="header">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Work+Sans&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <header>
+
+    <div class="header">
       <img class="logo" src="images/logo.png" alt="logo with umbrella and text that says YourWeatherPage" width="500">
-      <h1 class="title">YourWeatherPlace</h1> 
+      <h1 class="title">YourWeatherPlace</h1>
       <!-- <div class="p-img"> -->
-      
+
       <p>Your place to get the weather daily!</p>
-        </div><!-- </div> -->
-    </header>
-      <nav> 
-        <ul class="navigation">
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-        <li><a href="#" class="nav">Home</a></li>
-        <li><a href="#" class="nav">Preston</a></li>
-        <li><a href="#" class="nav">Soda Springs</a></li>
-        <li><a href="#" class="nav">Fish Haven</a></li>
-        <li><a href="#" class="nav">Storm Center</a></li>
-        <li><a href="#" class="nav">Gallery</a></li>
-      </ul>
-    </nav>
-    <main>
+    </div><!-- </div> -->
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="#" class="nav">Home</a></li>
+      <li><a href="#" class="nav">Preston</a></li>
+      <li><a href="#" class="nav">Soda Springs</a></li>
+      <li><a href="#" class="nav">Fish Haven</a></li>
+      <li><a href="#" class="nav">Storm Center</a></li>
+      <li><a href="#" class="nav">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
 
-        <h2>Preston Idaho</h2>
+    <h2>Preston Idaho</h2>
 
-      <section class="top">
-        <img class="home-image" src="images/mountain1.jpg" alt="photo of mountain with sun" >
-            <section class="weather-summary">
-              <h3>Weather Summary</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </section>
+    <section class="top">
+      <img class="home-image" src="images/mountain1.jpg" alt="photo of mountain with sun">
+      <section class="weather-summary">
+        <h3>Weather Summary</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </section>
-        <div class="content-box">Weather Summary </div>
+    </section>
+
+
+    <h3 class="fiveday"> Five Day Forecast</h3>
+    
+    <section class="forcast">
+
+      <div class="forcast-day" id="monday">
+        <h4> Mon</h4>
+        <p> High: 60<br>Low: 49</p>
+      </div>
+      <div class="forcast-day" id="tuesday">
+        <h4> Tues</h4>
+        <p> High: 75<br>Low: 63</p>
+      </div>
+      <div class="forcast-day" id="wednesday">
+        <h4> Wed</h4>
+        <p> High: 89<br>Low: 78</p>
+      </div>
+      <div class="forcast-day" id="thursday">
+        <h4> Thurs</h4>
+        <p> High: 69<br>Low: 57</p>
+      </div>
+      <div class="forcast-day" id="friday">
+        <h4> Fri</h4>
+        <p> High: 74<br>Low: 65</p>
+      </div>
 
 
 
-          
+
+    </section>
 
 
+    <div class="content-box">Article</div>
+    <div class="content-box">Contact Information</div>
+  </main>
 
-
-       
-
-
-
-
-        <div class="content-box">Five Day Forcast</div>
-        <div class="content-box">Article</div>
-        <div class="content-box">Contact Information</div>
-    </main>
-  
   <footer>
-    &copy;YourWeatherPage | <span id="year"></span> 
+    &copy;YourWeatherPage | <span id="year"></span>
 
-    </footer>
-    <script src="js/scripts.js"></script>
-  </body>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
