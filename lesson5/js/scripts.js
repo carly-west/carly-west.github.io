@@ -25,3 +25,9 @@ function toggleMenu() {
 
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
+
+let date = new Date();
+
+ if (date.getDay()==5){
+    document.getElementById("banner").style.display= "block" ;
+}

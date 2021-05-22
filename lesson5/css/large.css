@@ -19,6 +19,7 @@
     .home-image {
         max-width: 100%;
         position: relative;
+        
 
     }
     
@@ -28,7 +29,7 @@
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: #4D98D1;
         position: absolute;
-        top: 20rem;
+        top: 26rem;
         left: 11rem;
         max-width: 10em;
 
@@ -41,11 +42,79 @@
     
     .weather-summary p{
         padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
         font-size: .9rem;
     }
 
+    /* Forcast */
+
+    .forcast {
+
+        display: flex;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
     .forcast-day {
-        margin-left: 30px;
-}
+        margin-left: 5px;
+        background-color: #4D98D1;
+        flex: 1 1 auto;
+    }
+    
+    .fiveday {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .forcast p{
+        margin-bottom: 10px;
+        line-height: 30px;
+        line-height: 30px;
+    }
+    
+    .forcast-day h4 {
+        margin-top: 20px;
+    }
+
+    /* article */
+    .article-img {
+        max-width: 30%;
+        max-height: auto;
+        float: right;
+
+    }
+
+
+    .content-box img {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .content-box {
+        padding-bottom: 3rem;
+    }
+
+    .content-box p {
+        padding: 15px;
+    }
+
+    .align {
+        display: flex;
+    }
+
+    .bottom {
+        display: flex;
+    }
+
+    .contact-info-p {
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    .bottom {
+        max-width: 80%;
+    }
 
 }
