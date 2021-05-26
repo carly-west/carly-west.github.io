@@ -23,7 +23,7 @@ function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+window.onresize = () => {if (window.innerWidth > 760) nav.classList.remove('responsive')};
 
 
 let date = new Date();

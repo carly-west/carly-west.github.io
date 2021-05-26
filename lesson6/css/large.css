@@ -31,7 +31,8 @@
         position: absolute;
         top: 22rem;
         left: 13rem;
-        max-width: 10em;
+        max-width: 13em;
+        padding-bottom: 0;
 
     }
     
@@ -47,6 +48,15 @@
         font-size: .9rem;
     }
 
+    .weather-summary li {
+        list-style-type: none;
+        line-height: 30px;
+
+    }
+
+    .weather-summary ul {
+        padding-left: 0;
+    }
     /* Forcast */
 
     .forcast {

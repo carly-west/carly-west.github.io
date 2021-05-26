@@ -47,15 +47,25 @@
     <h2>Preston Idaho</h2>
 
     <section class="top">
-      <figure class-"banner-image">
+      <figure class="banner-image">
       <img class="home-image"  alt="photo of mountain with sun" sizes="100vw"
       srcset="images/wdd230_image_franklinSmall.jpeg 866w,
               images/wdd230_image_franklinMedium.jpeg 1418w,
               images/wdd230_image_franklinOriginal.jpeg 1916w">
             </figure>
+
+
+            
       <section class="weather-summary">
         <h3>Weather Summary</h3>
-        <p>Currently: Sunny <br> High: 76 F <br> Humidity: 37% <br> Wind Speed: 5mph </p>
+        <ul>
+            <li>Currently: <span id="currently">Sunny</span></li>
+            <li>High: <span id="high">54</span></li>
+            <li>Humidity: <span id="humidity">95</span>%</li>
+            <li>Wind Speed: <span id="wind-speed">12</span> mph</li>
+            <li>Wind Chill: <span id="wind-chill"> </span></li>
+        </ul>
+        
       </section>
     </section>
 
@@ -126,6 +136,7 @@
 
   </footer>
   <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
 </body>
 
 </html>
