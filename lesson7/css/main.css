@@ -51,7 +51,8 @@ footer {
 
 /* header */
 
-header h1 {
+header h1,
+p {
     text-align: center;
     margin: 0;
 }
