@@ -1,0 +1,146 @@
+@media only screen and (min-width: 64rem) {
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    
+
+    /* Weather Summary */
+    .home-image {
+        max-width: 100%;
+        position: relative;
+        
+
+    }
+    
+    .weather-summary {
+        padding: 18px;
+        border-radius: 5px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #4D98D1;
+        position: absolute;
+        top: 22rem;
+        left: 13rem;
+        max-width: 13em;
+        padding-bottom: 0;
+
+    }
+    
+    .weather-summary h3 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .weather-summary p{
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: .9rem;
+    }
+
+    .weather-summary li {
+        list-style-type: none;
+        line-height: 30px;
+
+    }
+
+    .weather-summary ul {
+        padding-left: 0;
+    }
+    /* Forcast */
+
+    .forcast {
+        display: flex;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .forcast-day {
+        margin-left: 5px;
+        background-color: #4D98D1;
+        flex: 1 1 auto;
+    }
+    
+    .fiveday {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .forcast p{
+        margin-bottom: 10px;
+        line-height: 30px;
+        line-height: 30px;
+    }
+    
+    .forcast-day h4 {
+        margin-top: 20px;
+    }
+
+    /* article */
+    .article-img {
+        max-width: 30%;
+        float: right;
+
+    }
+
+
+    .content-box img {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .content-box {
+        padding-bottom: 3rem;
+    }
+
+    .content-box p {
+        padding: 15px;
+    }
+
+    .align {
+        display: flex;
+    }
+
+    .bottom {
+        display: flex;
+    }
+
+    .contact-info-p {
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    .bottom {
+        max-width: 80%;
+    }
+
+
+    /* gallery */
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gallery img {
+        max-width: 100%;
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+
+    .gallery img:hover  {
+        opacity: 0.3;
+        transition: .3s ease;
+      }
+
+
+}
