@@ -1,0 +1,18 @@
+div img[data-src] {
+  filter: blur(0.2em);
+}
+  
+div img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+img {
+    border: 1px solid gray;
+    padding: 2px;
+    display: block;
+}
+
+html {
+    line-height: 1.15;
+}
