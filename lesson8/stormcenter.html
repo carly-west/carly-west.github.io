@@ -40,11 +40,15 @@
   </nav>
   <main>
 
+    <h2 id="title">Storm Center Form</h2>
+
     <form method="get">
+      <br>
+
       <fieldset>
         <legend>User Information</legend>
         <label id="fullname">Full Name*:
-          <input type="text" id="fname" name="fname" pattern="[a-z]{0,5}" required>
+          <input type="text" id="fname" name="fname" pattern="[a-z]{5,500}" required>
         </label>
         <br>
         <label>Email:
@@ -59,8 +63,12 @@
           <input type="number" id="zip" name="zip" required>
         </label>
       </fieldset>
+      <br>
+      <br>
       <fieldset>
+
         <legend>Storm Information</legend>
+
         <label> Storm Date:
           <input type="date" id="date" name="date">
         </label>
@@ -77,11 +85,14 @@
 
 
         <br>
-        <label for="rating">Storm Severity:
-          <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+        <div class="range-wrap">
+        <p for="rating" id="severity">Storm Severity:
+        </p>
+          <input type="range" class="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
             oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-          <span id="ratingvalue">5</span>
-        </label>
+            <output class="bubble"></output>
+          </div>
+        
 
         <datalist id="tickmarks">
           <option value="0">
@@ -107,14 +118,14 @@
         </select>
         <br>
 
-        <p>User In-danger Level:</p>
-        <input type="radio" id="male" value="yes">
-        <label for="yes">Yes</label><br>
-        <input type="radio" id="female" value="maybe">
-        <label for="female">Mabye</label><br>
-        <input type="radio" id="other" value="no">
-        <label for="no">No</label><br>
-
+        <p>User In Danger:</p>
+        <input type="radio" id="yes" name="danger" value="yes">
+        <label class="not-block" for="yes">Yes</label><br>
+        <input type="radio" id="no" name="danger" value="no">
+        <label class="not-block" for="no">No</label><br>
+        <input type="radio" id="maybe" name="danger" value="maybe">
+        <label class="not-block" for="maybe">Maybe</label>
+        <br>
         <label for="info">Additional Information:</label>
         <textarea id="info" name="info" rows="4" cols="50"></textarea>
         <br>
