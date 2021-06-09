@@ -17,19 +17,15 @@
 <body>
 
   <header>
-    <div id="banner">
-
-      <p>Saturday- Preston Pancakes in the Park! 9:00 am Friday at the city park</p>
-
 
     </div>
     <div class="header">
       <img class="logo" src="images/logo.png" alt="logo with umbrella and text that says YourWeatherPage" width="500">
       <h1 class="title">YourWeatherPlace</h1>
-      <!-- <div class="p-img"> -->
+
 
       <p>Your place to get the weather daily!</p>
-    </div><!-- </div> -->
+    </div>
   </header>
   <nav>
     <ul class="navigation">
@@ -47,7 +43,7 @@
     <form method="get">
       <fieldset>
         <legend>User Information</legend>
-        <label>Full Name*:
+        <label id="fullname">Full Name*:
           <input type="text" id="fname" name="fname" pattern="[a-z]{0,5}" required>
         </label>
         <br>
@@ -70,7 +66,7 @@
         </label>
         <br>
         <label for="type">Storm Type:</label>
-        <input list="types" name="type" id="type">
+        <input list="types" name="type" id="type" type="type">
         <datalist id="types">
           <option value="Flash Flood">
           <option value="Hail">

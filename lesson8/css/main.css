@@ -10,7 +10,9 @@ a {
 p,
 footer,
 .content-box,
-li {
+li,
+input,
+label {
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -24,6 +26,10 @@ h2 {
     text-indent: 15px;
 }
 
+
+header h1 {
+    text-align: center;
+}
 
 /* banner */
 
@@ -336,3 +342,51 @@ h3 {
     margin-bottom: 15px;
 
 }
+
+
+/* Form */
+
+input[type=text], input[type=tel], textarea, input[type=number], input[type=type] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  input[type=range]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  input[type=tel]:focus {
+    border: 3px solid #555;
+  }
+
+  textarea:focus {
+    border: 3px solid #555; 
+  }
+
+  input[type=number]:focus {
+    border: 3px solid #555;
+  }
+
+  label {
+      margin-top: 50px;
+  }
+
+#fname, #email, #phone {
+    margin-bottom: 25px;
+}
+ legend {
+     margin-bottom: 20px;
+ }
+
