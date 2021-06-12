@@ -441,6 +441,7 @@ input[type=text], input[type=tel], textarea, input[type=number], input[type=type
 
   input[type=submit]{
       padding: 10px;
+      cursor: pointer;
   }
 
   form {
@@ -461,6 +462,6 @@ input[type=text], input[type=tel], textarea, input[type=number], input[type=type
     padding-bottom: 70px;
     margin-top: 80px;
     margin-bottom: 80px;
-
-
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
