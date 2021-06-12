@@ -354,7 +354,7 @@ h3 {
     padding-top: 30px;
 }
 
-input[type=text], input[type=tel], textarea, input[type=number], input[type=type], input[type=date], #regions {
+input[type=text], input[type=tel], textarea, input[type=number], input[type=stormtype], input[type=date], #regions {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
