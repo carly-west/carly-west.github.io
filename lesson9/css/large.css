@@ -8,11 +8,6 @@
         padding: .6rem 1rem;
     }
 
-    main {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-
     
 
     /* Weather Summary */
@@ -29,7 +24,7 @@
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: #4D98D1;
         position: absolute;
-        top: 45%;
+        top: 65%;
         left: 18%;
         max-width: 13em;
         padding-bottom: 0;
@@ -141,6 +136,10 @@
         opacity: 0.3;
         transition: .3s ease;
       }
+
+
+
+      /* input page */
 
 
 }
