@@ -497,12 +497,40 @@ input[type=text], input[type=tel], textarea, input[type=number], input[type=stor
 /* Index */
 
 .location {
-    border: 2px solid black;
-    margin: 20px;
+    line-height: 40px;
+    margin: 20px;  
+    padding: 25px;  
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #90CCF4;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-
 
 .location-photo {
     max-width: 50%;
-    margin: 10px;
+    margin: 5px;
+    border-radius: 3px;
+
 }
+
+.location h2 {
+    margin-bottom: 5px;
+    margin-top: -10px;
+
+}
+
+
+
+.motto {
+    margin-bottom: 15px;
+}
+
+.location img {
+    padding-bottom: 25px;
+}
+
+
+
+
+

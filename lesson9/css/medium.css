@@ -48,13 +48,6 @@
     
 
 
-    h2 {
-        padding-top: 0px;
-        font-size: 2rem;
-    }
-
-
-
 
     /* footer */
 
@@ -93,6 +86,68 @@
         grid-template-columns: 1fr 1fr;
 
         }
+
+        /* index */
+        
+
+        .location {
+            font-size: 2vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            line-height: 35px;
+        } 
+        
+        #sodasprings-info, #preston-info {
+            padding-right: 45px;
+        }
+        
+        .location h2 {
+            font-size: 3vh;
+        } 
+         #sodasprings-info h2, #preston-info h2{
+            grid-column-start: 1;
+            grid-row-start: 1;
+            overflow: auto;
+        } 
+         #soda-text, #preston-text{
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+
+        #soda-img, #preston-img {
+            grid-column-start: 2;
+            max-width: 100%;
+            padding: 10px;
+
+
+        }
+         
+        .location-text {
+            margin-top: 20px;
+            min
+        }
+         
+
+         #fishhaven-info h2{
+            grid-column-start: 2;
+            grid-row-start: 1;
+            overflow: auto;
+        
+        } 
+        #fish-text{
+            grid-column-start: 2;
+            grid-row-start: 1;
+            margin-top: 20px;
+        } 
+        
+        #fish-img {
+            grid-column-start: 1;
+            max-width: 100%;
+            padding: 10px;
+        
+        }
+
 
 
 } 

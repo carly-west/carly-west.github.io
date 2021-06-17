@@ -6,8 +6,8 @@
   <meta name="description" content="Page for weather summary of Preston Idaho">
   <title>Preston Home Page</title>
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/large.css" rel="stylesheet">
   <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Work+Sans&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -47,21 +47,22 @@
     <div id="location-info">
 
       <section class="location" id="preston-info">
-        <img src="images/preston-photo.jpeg" class="location-photo">
-        <h2>Preston</h2>
+        <img src="images/preston-photo.jpeg" class="location-photo" id="preston-img">        <div class="location-text" id="preston-text">
         <div class="location-text" id="preston-text">
-        <p>Home of Napoleon Dynamite</p>
+        <h2>Preston</h2>
+        <p class="motto"><i>Home of Napoleon Dynamite</i></p>
         <p>Year Founded: 1866 </p>
         <p>Population: 5204 </p>
        <p> Annual Rainfall: 16.65</p>
       </div>
       </section>
 
-      <section class="location" id="fishhaven-info">        <img src="images/fish-haven-photo.jpeg" class="location-photo">
+      <section class="location" id="fishhaven-info">        
+        <img src="images/fish-haven-photo.jpeg" class="location-photo" id="fish-img">
+        <div class="location-text" id="fish-text">
 
         <h2>Fish Haven</h2>
-        <div class="location-text" id="fish-text">
-        <p>This is Fish Heaven.</p>
+        <p class="motto"><i>This is Fish Heaven.</i></p>
         <p>Year Founded: 1864 </p>
         <p>Population: 501 </p>
        <p> Annual Rainfall: 14.2</p>
@@ -69,10 +70,11 @@
       </section>
 
       <section class="location" id="sodasprings-info">
-        <h2>Soda Springs</h2>
-        <img src="images/soda-springs-photo.jpeg" class="location-photo">
+        <img src="images/soda-springs-photo.jpeg" class="location-photo" id="soda-img">
         <div class="location-text" id="soda-text">
-        <p>Historic Oregon Trail Oasis. The soda is on us.</p>
+        <h2>Soda Springs</h2>
+
+        <p class="motto"><i>Historic Oregon Trail Oasis. The soda is on us.</i></p>
         <p>Year Founded: 1866 </p>
         <p>Population: 5204 </p>
        <p> Annual Rainfall: 16.65</p>

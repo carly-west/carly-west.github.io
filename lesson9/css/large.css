@@ -139,7 +139,20 @@
 
 
 
-      /* input page */
+      /* index page */
+      .location {
+        display: block;
+        grid-template-columns: none;
+        padding-right: 45px;
+
+    }
+      #location-info {
+        display: flex;
+    }
+
+    .motto {
+        font-size: 1.8vh;
+    }
 
 
 }
