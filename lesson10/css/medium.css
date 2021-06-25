@@ -46,7 +46,10 @@
 
     }
     
-
+    .banner-image {
+        margin-left: -4%;
+        margin-right: -4%;
+    }
 
 
     /* footer */
@@ -146,6 +149,7 @@
             padding: 10px;
         
         }
+
 
 
 

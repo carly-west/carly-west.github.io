@@ -64,7 +64,14 @@
         margin-left: 5px;
         background-color: #4D98D1;
         flex: 1 1 auto;
+        border:  2px solid;
+        border-radius: 5px;
     }
+
+    .forcast-info {
+        background-color: lightgray;
+    }
+
     
     .fiveday {
         margin-top: 40px;
@@ -73,13 +80,27 @@
     }
     
     .forcast p{
-        margin-bottom: 10px;
+        padding-bottom: 10px;
         line-height: 30px;
         line-height: 30px;
+        font-size: 20px;
+        text-align: center;
     }
     
     .forcast-day h4 {
-        margin-top: 20px;
+        margin-top: 0px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid;
+        font-size: 21px;
+        background-color: lightslategray;
+    }
+
+    .forcast-img {
+        padding-top: 20px;
+        margin-bottom: 10px;
+
     }
 
     /* article */

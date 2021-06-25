@@ -52,6 +52,10 @@ main {
     margin-right: 3%;
 }
 
+main h2 {
+    text-align: center;
+}
+
 footer {
     background-color: #90CCF4;
     padding: 50px;
@@ -178,13 +182,14 @@ nav ul li:hover {
     border-radius: 5px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #4D98D1;
-
+    line-height: 25px;
 }
-
+.weather-summary ul {
+    padding: 0;
+}
 
 .weather-summary h3 {
     text-align: center;
-    margin: 0;
 }
 
 .weather-summary {
