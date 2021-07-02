@@ -258,6 +258,10 @@ nav ul li:hover {
     background-color: #4D98D1;
 }
 
+#index-content-box {
+    margin-bottom: 20px;
+}
+
 .article-img {
     max-width: 80%;
     margin-top: 15px;

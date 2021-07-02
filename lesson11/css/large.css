@@ -13,12 +13,19 @@
     /* Weather Summary */
     .home-image {
         position: relative;
+        max-width: 90%;
+    }
+
+    .banner {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .weather-summary {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         position: absolute;
-        top: 45%;
+        top: 75%;
         left: 18%;
         min-width: 15em;
         padding-bottom: 0;
@@ -92,11 +99,15 @@
 
     /* article */
     .article-img {
-        max-width: 30%;
+        max-width: 50%;
         float: right;
-
+        margin-left: 30px;
+        margin-top: 30px;
     }
 
+    .article-p {
+        margin: 20px;
+    }
 
     .content-box img {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -105,6 +116,10 @@
 
     .content-box {
         padding-bottom: 3rem;
+        max-width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .content-box p {
@@ -128,6 +143,12 @@
         max-width: 80%;
     }
 
+    .upcoming-events {
+        max-width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     /* gallery */
     .gallery {

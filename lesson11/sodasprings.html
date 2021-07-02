@@ -20,12 +20,6 @@
 <body>
 
   <header>
-    <div id="banner">
-
-      <p>Saturday- Preston Pancakes in the Park! 9:00 am Friday at the city park</p>
-
-
-    </div>
     <div class="header">
       <img class="logo" src="images/logo.png" alt="logo with umbrella and text that says YourWeatherPage" width="500">
       <h1 class="title">YourWeatherPlace</h1>
@@ -50,14 +44,13 @@
 
 
     <section class="top">
-      <figure class="banner-image">
-      <img class="home-image"  alt="photo of mountain with sun" sizes="100vw"
-      srcset="images/wdd230_image_franklinSmall.jpeg 400w,
-              images/wdd230_image_franklinMedium.jpeg 800w,
-              images/wdd230_image_franklinOriginal.jpeg 1200w">
-            </figure>
+      <div class="banner">
+       <h2>Soda Springs</h2>
 
-    <h2>Preston Idaho</h2>
+      <img src="images/soda-springs-photo.jpeg" class="home-image"  alt="photo of mountain with sun">
+      </div>
+
+
             
       <section class="weather-summary">
         <h3>Weather Summary</h3>
@@ -120,16 +113,28 @@
 
 
     <div class="content-box">
-      <h3> Founders Day Fresco</h3>
+      <h3>Independence Day Celebration</h3>
+
       <div class="align">
-      <img class="article-img" src="images/views1.jpg" alt="photo of mountain with lake">
-      <p class="article-p" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img class="article-img" src="images/soda-fourth.jpeg" alt="photo of mountain with lake">
+      <p class="article-p" > This year, we will be having a spectacular Independence Day celebration that 
+        you and your family sure won't want to miss! It will be located at our beautiful town hall, and 
+        the Soda Springs stake is graciously serving their famous waffles and eggs! There will be activites for all ages, and 
+        face painting for the little ones. Our wonderful Mayor will even be sitting in the dunk tank, ready for you to
+        drop him in!
+      </p>
       </div>
     </div>
 
+    <div class="upcoming-events">
+        <h3> Upcoming Events:</h3>
+
+        <p>July 5th: Independence day celebration </p>
+        <p>August 19th: Neighborhood Potluck </p>
+        <p>September 18th: Start of school celebration</p>
+
+
+    </div>
 
 
    <div class="bottom">
@@ -157,8 +162,7 @@
     <span id="daysSinceVisit"> Days Since Last Visit: </span>
   </footer>
   <script src="js/scripts.js"></script>
-  <script src="js/windchill.js"></script>
-  <script src="js/weatherapi.js"></script>
+  <script src="js/weatherapi-soda.js"></script>
 
 </body>
 
