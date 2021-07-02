@@ -1,0 +1,156 @@
+@media only screen and (min-width: 32.5em) {
+
+    /* Navigation */
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+        border: none;
+    }
+
+    .current {
+        background-color: #8F8f8f;
+    }
+
+
+    /* Header */
+
+    header {
+        justify-content: center;
+    }
+
+    .header img {
+        max-width: 10rem;
+        padding:0;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+        margin-left: -50px;
+    
+    }
+    
+    header p {
+        font-size: 1.3em;
+        margin-left: 20px;
+
+
+    }
+    
+
+
+    /* footer */
+
+
+
+    footer {
+        padding: 20px;
+    } 
+
+    .map {
+        display: block;
+        float: left;
+        padding-left: 30px;   
+        position: relative;
+
+
+    }
+
+
+    .bottom {
+        display: flex;
+    }
+
+    .contact-info-p{
+        padding-top: 20px;
+        flex: 1 1 auto;
+        display: block;
+    }
+
+
+
+
+
+
+    /* gallery */
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        }
+
+        /* index */
+        
+
+        .location {
+            font-size: 2vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            line-height: 35px;
+        } 
+        
+        #sodasprings-info, #preston-info {
+            padding-right: 45px;
+        }
+        
+        .location h2 {
+            font-size: 3vh;
+        } 
+         #sodasprings-info h2, #preston-info h2{
+            grid-column-start: 1;
+            grid-row-start: 1;
+            overflow: auto;
+        } 
+         #soda-text, #preston-text{
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+
+        #soda-img, #preston-img {
+            grid-column-start: 2;
+            max-width: 100%;
+            padding: 10px;
+
+
+        }
+         
+        .location-text {
+            margin-top: 20px;
+        }
+         
+
+         #fishhaven-info h2{
+            grid-column-start: 2;
+            grid-row-start: 1;
+            overflow: auto;
+        
+        } 
+        #fish-text{
+            grid-column-start: 2;
+            grid-row-start: 1;
+            margin-top: 20px;
+        } 
+        
+        #fish-img {
+            grid-column-start: 1;
+            max-width: 100%;
+            padding: 10px;
+        
+        }
+
+
+
+
+} 
