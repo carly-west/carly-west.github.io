@@ -7,7 +7,7 @@ fetch(apiURL)
     var currently = jsObject.weather[0].description;
     document.getElementById('currently').textContent = currently[0].toUpperCase() + currently.substring(1);
     document.getElementById('current-temp').textContent = parseInt(jsObject.main.temp);
-    document.getElementById('high').textContent = parseInt(jsObject.main.temp_max);
+    document.getElementById('currently').textContent = currently[0].toUpperCase() + currently.substring(1);
     document.getElementById('humidity').textContent = parseInt(jsObject.main.humidity);
     document.getElementById('wind-speed').textContent = parseInt(jsObject.wind.speed);
 
@@ -33,6 +33,21 @@ fetch(apiURL)
     for (let i = 3; i < forecast.length; i += 8) {
       document.getElementById(`img${i}`).setAttribute('src', "https://openweathermap.org/img/w/" + forecast[i].weather[0].icon + ".png");
       document.getElementById(`day${i}`).innerText = forecast[i].main.temp;
+    }
+
+  });
+
+  const towndata = "https://byui-cit230.github.io/weather/data/towndata.json"
+
+  fetch(towndata)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    const towns = jsObject["towns"];
+    for (let i = 0; i < [1]; i++ ) {
+      document.getElementById('event1').textContent = towns[6].events[0];
+      document.getElementById('event2').textContent = towns[6].events[1];
+      document.getElementById('event3').textContent = towns[6].events[2];
     }
 
 
