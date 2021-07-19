@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64rem) {
+
+
+    .ads-flex {
+        display: flex;
+        overflow: auto;
+    }
+
+    .intro {
+        display: flex;
+    }
+
+    .upcoming-events {
+        max-width: 60%;
+    }
+
+
+    /* intro */
+
+    .flex {
+    display: flex;
+    }
+    
+    /* Weather */
+    .top-weather, .bottom-weather {
+        display: flex;
+    }
+
+    .part {
+        flex: 1 1 auto;
+        margin: 10px;
+    }
+}

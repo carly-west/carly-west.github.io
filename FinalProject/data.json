@@ -1,0 +1,44 @@
+{
+   "alpha":{
+      "name":"Alpha Coffee",
+      "address":"7260 Racquet Club Drive",
+      "phone":"385-449-0580",
+      "link":"https://alpha.coffee/"
+   },
+   "blackstone":{
+      "name":"Blackstone Dental",
+      "address":"6710 South Blackstone Road",
+      "phone":"801-278-0458",
+      "link":"https://www.blackstonedentalutah.com/"
+   },
+   "cancun":{
+      "name":"Cancun Cafe",
+      "address":"1891 East Fort Union Boulevard",
+      "phone":"801-942-1333",
+      "link":"https://cancuncafeslc.com/"
+   },
+   "healthy":{
+      "name":"Healthy Pets",
+      "address":"2352 Fort Union Boulevard ",
+      "phone":"801-944-7353",
+      "link":"https://www.healthypetsmw.com/"
+   },
+   "pizzeria":{
+      "name":"Pizzeria Limone",
+      "address":"1380 Fort Union Boulevard ",
+      "phone":"801-733-9305",
+      "link":"https://www.pizzerialimone.com/"
+   },
+   "soulstice":{
+      "name":"Soulstice Day Spa & Salon",
+      "address":"6981 South Park Centre Drive",
+      "phone":"801-255-3655",
+      "link":"https://www.soulsticedayspa.com/"
+   },
+   "titleboxing":{
+      "name":"Title Boxing",
+      "address":"7817 Highland Drive ",
+      "phone":"801-676-1011",
+      "link":"https://titleboxingclub.com/"
+   }
+}

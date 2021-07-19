@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<header>
+  <div class="header">
+    <a href=index.html>
+      <img class="logo" src="images/final-logo.png" alt="logo with mountains and text that reads Cottonwood Heights">
+</a>
+<h1 class="title">Cottonwood Heights Chamber of Commerce</h1>
+</div>
+</header>
+<nav>
+
+    <ul class="navigation">
+      <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li class="current"><a href="index.html" class="nav">Home</a></li>
+      <li><a href="city.html" class="nav">City</a></li>
+      <li><a href="join.html" class="nav">Join</a></li>
+      <li><a href="directory.html" class="nav">Directory</a></li>
+      <li><a href="contact.html" class="nav">Contact</a></li>
+
+
+
+    </ul>
+
+</nav>
+<main>
+<div class="banner">
+<img src="images/canyon.jpeg">
+<h1>Welcome to Cottonwood Heights Chamber of Commerce</h1>
+</div>
+
+
+
+  <div class="intro">
+  <div class="description">
+    <h2>What do we do?</h2>
+    <section class="flex">
+    <p>The Chamber of Commerce of Cottonwood Heights is an organization that
+      promotes local businesses, and allows them to work together to promote
+      local interest and community. 
+    </p>
+    </section>
+  </div>
+  <div class="call-join">
+    <h2>Why join?</h2>
+    <p>All businesses located in Cottonwood Heights are implored to join our
+      Chamber of Commerce because of the opportunity it provides their businesses
+      to discuss and promote their product and services. 
+    </p>
+    <button class="join-button" href="join.html">
+      <h4>Join now!</h4>
+    </a>
+  </div>
+</div>
+
+  <div class="advertisements">
+    <h2>Local Business Spotlight</h2>
+      <div class="ads-flex">
+
+        <div class="ad1"> 
+          <h3>Cottonwood Cyclery</h3>
+          <div class="ad-info">
+            <a href="http://www.cottonwoodcyclery.com/">
+              <img src="images/logo-cyclery.png">
+            </a>
+            <p>
+              Cottonwood Cyclery is a local bicyle shop
+              focusing on road and mountain bikes.
+            </p>
+        </div>
+          <p class="ad-address">
+            2594 Bengal Blvd, Salt Lake City, UT 84121
+          </p>
+        </div>
+
+
+        <div class="ad2"> 
+          <h3>Kari Sikorski Photography</h3>
+          <div class="ad-info">
+            <a href="http://www.karisikorskiphotography.com/">
+              <img src="images/logo-photography.png">
+            </a>
+            <p>
+              Kari Sikorski Photography is a family photographer
+              specializing in portraits.
+            </p>
+        </div>
+          <p class="ad-address">
+            Salt Lake City, Utah
+          </p>
+        </div>
+
+        <div class="ad3"> 
+          <h3>Wasatch Nectar</h3>
+          <div class="ad-info">
+            <a href="https://www.wasatchnectar.com/">
+              <img src="images/logo-honey.png">
+            </a>
+            <p>
+              Wasatch Nectar is Utah raw honey enhanced
+              with electrolytes.
+            </p>
+        </div>
+          <p class="ad-address">
+            PO Box 711442, Cottonwood Heights, UT 84121
+          </p>
+        </div>
+ 
+    </div>
+  </div>
+
+
+
+  <div class="upcoming-events">
+    <h2> Upcoming Events</h2>
+      <p>Butlerville Days: July 14-24</p>
+      <p>Car Show: July 19</p>
+      <p>Fireworks: July 24</p>
+  </div>
+
+  <div class="weather">
+    <h2>Today's Weather</h2>
+    <div class="top-weather">
+        <div class="part">
+          <h4>Current Temperature</h4>
+          <p><span id="temperature"></span>&#176;F</p>
+        </div>
+        <div class="part">
+          <h4>Condition</h4>
+          <p id="condition"></p>
+        </div>
+        <div class="part">
+          <h4>Humidity</h4>
+          <p><span id="humidity"></span>%</p>
+        </div>
+    </div>
+    <h2>Three day Forecast</h2>
+    <div class="bottom-weather">
+      <div class="part"> 
+        <h3 id="date1"></h3>
+        <p><span id="day1"></span>&#176;F</p>
+      </div>
+      <div class="part"> 
+        <h3 id="date2"></h3>
+        <p><span id="day2"></span>&#176;F</p>
+      </div>
+      <div class="part"> 
+        <h3 id="date3"></h3>
+        <p><span id="day3"></span>&#176;F</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</main>
+<footer>
+  <div class="bottom">
+<h3>Contact Information </h3>
+    <p class="contact-info-p"> <br><br> 2277 Bengal Blvd <br> Cottonwood Heights, UT 84121 <br> <br>
+    (801) 944-7000 <br> cottonwoodheights@gmail.com <br><br>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    </p>
+    </div>
+</footer>
+<script src="javascript/scripts.js"></script>
+
+</body>
+</html>
