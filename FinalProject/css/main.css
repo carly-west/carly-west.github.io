@@ -388,7 +388,7 @@ header h1 {
 
 /* CITY PAGE */
 
-.about, .events, .vaccine, .level-info, .directory{
+.about, .events, .vaccine, .level-info, .directory, .thanks{
     background-color: #52658f;
     margin-left: 15px;
     margin-right: 15px;
@@ -398,7 +398,7 @@ header h1 {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about div, .events div, .vaccine div, .level-info div, .d{
+.about div, .events div, .vaccine div, .level-info div, .d, .thankyou{
     background-color: #abb6cf;
     padding: 10px;
     margin: 10px;
@@ -634,4 +634,22 @@ input[type=text], input[type=tel], textarea, input[type=number]{
 .title-contact {
     text-align: center;
     margin-top: 40px;
+}
+
+.thanks {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thankyou {
+    padding: 20px;
+}
+
+.thankyou h2, .thankyou p {
+    text-align: center;
+}
+
+.thankyou p {
+    padding-bottom: 20px;
 }
