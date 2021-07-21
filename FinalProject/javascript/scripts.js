@@ -34,5 +34,23 @@ document.getElementById('date3').textContent = days[(date.getDay() + 3) % 7];
 
 
 
+// Last modified
+
+document.getElementById("lastmodified").textContent = document.lastModified;
 
 
+
+// sticky navbar
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

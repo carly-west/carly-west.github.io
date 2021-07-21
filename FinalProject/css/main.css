@@ -36,9 +36,17 @@ nav {
     background-color: #333A56;
     margin: -8px;
     padding: 0;
-    margin-top:40px;
-    
 }
+
+.sticky {
+    position: fixed;
+    top: -60px;
+    width: 102%;
+    background-color: #333A56;
+  }
+  .sticky + main {
+    padding-top: 60px;
+  }
 
 nav li a {
     text-decoration: none;
