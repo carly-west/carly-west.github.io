@@ -225,7 +225,6 @@ header h1 {
     margin-bottom: 10px;
     display: block;
     cursor: pointer;
-    text-decoration: none;
     max-width: 90px;
     color: black;
 }
