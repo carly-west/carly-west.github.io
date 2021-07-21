@@ -11,7 +11,7 @@
     }
     .navigation li {
         display: block;
-        flex: 1 1 auto;
+        flex: 1 1;
     }
     .navigation a {
         text-align: center;
@@ -108,6 +108,7 @@
      .admin {
         max-width: 90%;
      }
+     
 }
 
 

@@ -25,6 +25,7 @@
     flex: 1 1;
 }
 
+
     /* Weather */
     .top-weather, .bottom-weather {
         display: flex;
@@ -60,4 +61,25 @@
         object-fit: cover;
         object-position: 20% 10%; 
      }
+
+     .city-info img{
+        padding: 20px;
+        max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .butlerville {
+        display: flex;
+    }
+
+    .butlerville h3 {
+        padding-top: 20px;
+    }
+    
+    .butlerville img {
+        max-width: 40%;
+    }
 }
