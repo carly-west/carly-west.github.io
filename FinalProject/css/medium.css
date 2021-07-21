@@ -100,4 +100,14 @@
             display: none;
         }
      }
+
+     .contact-us{
+        max-width: 50%;
+     }
+
+     .admin {
+        max-width: 90%;
+     }
 }
+
+

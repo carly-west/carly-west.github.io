@@ -21,13 +21,43 @@
     display: flex;
     }
     
+.intro div {
+    flex: 1 1;
+}
+
     /* Weather */
     .top-weather, .bottom-weather {
         display: flex;
     }
 
     .part {
-        flex: 1 1 auto;
+        flex: 1 1;
         margin: 10px;
+        margin-top: 20px;
     }
+
+    .contact-us{
+        max-width: 40%;
+     }
+
+     .admin-info {
+        display: flex;
+     }
+
+     .admin-info div {
+         display: block;
+         flex: 1 1;
+     }
+
+     .admin {
+         max-width: 90%;
+     }
+
+
+     .banner img {
+        width: 110%;
+        height: 300px; 
+        object-fit: cover;
+        object-position: 20% 10%; 
+     }
 }
