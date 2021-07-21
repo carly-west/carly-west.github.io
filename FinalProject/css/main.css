@@ -5,7 +5,8 @@
  h4,
  a,
  legend, 
- h5 {
+ h5,
+ button {
     font-family: 'Montserrat', sans-serif;
  }
 
@@ -202,11 +203,11 @@ header h1 {
     line-height: 25px;
 }
 
-.intro button {
+.join-button {
     text-align: center;
     background-color: #C0B283;
     border: #AF9D61 solid 1px;
-    padding: 0 20px 0 20px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -216,6 +217,11 @@ header h1 {
     margin-bottom: 10px;
     display: block;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.join-button-out {
+    text-decoration: none;
 }
 
 .intro button:hover {
