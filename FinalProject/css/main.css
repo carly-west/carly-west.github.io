@@ -218,13 +218,16 @@ header h1 {
     display: block;
     cursor: pointer;
     text-decoration: none;
+    max-width: 90px;
+    color: black;
 }
 
-.join-button-out {
-    text-decoration: none;
+.intro a:visited {
+    text-decoration: none; 
+    decoration: none; 
 }
 
-.intro button:hover {
+.intro a:hover {
     background-color: #AF9D61;
     transition-duration: 0.4s;
 }
