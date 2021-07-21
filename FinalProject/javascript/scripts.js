@@ -31,3 +31,8 @@ var date = new Date();
 document.getElementById('date1').textContent = days[(date.getDay() + 1) % 7];
 document.getElementById('date2').textContent = days[(date.getDay() + 2) % 7];
 document.getElementById('date3').textContent = days[(date.getDay() + 3) % 7];
+
+
+
+
+

@@ -38,9 +38,15 @@
 </nav>
 <main>
 
-    <h1 class="title">Local Business Directory</h1>
+    <h1 id="directory-title">Local Business Directory</h1>
+    <div id="btnContainer">
+        <button class="btn" onclick="listView()"> <img src="images/list.png"></button> 
+        <button class="btn active" onclick="gridView()"><img src="images/grid-icon.png"></button>
+      </div>
 
-    <div class="directory">
+
+    <div class="directory" id="columns">
+        <div class="row">
         <div class="alpha d">
             <div class="d-info">
                 <h2 id="d1-name"></h2>
@@ -48,7 +54,9 @@
                 <p id="d1-phone"></p>
                 <p id="d1-link"></p>
             </div>  
+            <a href="https://alpha.coffee/" target="_blank">
             <img src="images/directory-logos/dlogo-alpha.png">
+        </a>
         </div>
         <div class="blackstone d">
             <div class="d-info">
@@ -57,8 +65,13 @@
                 <p id="d2-phone"></p>
                 <p id="d2-link"></p>
             </div>
+            <a href="https://www.blackstonedentalutah.com/" target="_blank">
             <img src="images/directory-logos/dlogo-dental.png">
+            </a>
         </div>
+    </div>
+
+    <div class="row">
         <div class="cancun d">
             <div class="d-info">
                 <h2 id="d3-name"></h2>
@@ -66,7 +79,9 @@
                 <p id="d3-phone"></p>
                 <p id="d3-link"></p>
             </div>
+            <a href="https://cancuncafeslc.com/" target="_blank">
             <img src="images/directory-logos/dlogo-cancun.png">
+            </a>
         </div>
         <div class="healthy d">
             <div class="d-info">
@@ -75,8 +90,13 @@
                 <p id="d4-phone"></p>
                 <p id="d4-link"></p>
             </div>
-            <img src="images/directory-logos/dlogo-pets.png">
+            <a href="https://www.healthypetsmw.com/" target="_blank">
+            <img src="images/directory-logos/healthy.png">
+            </a>
         </div>
+    </div>
+
+    <div class="row">
         <div class="pizzeria d">
             <div class="d-info">
                 <h2 id="d5-name"></h2>
@@ -84,7 +104,9 @@
                 <p id="d5-phone"></p>
                 <p id="d5-link"></p>
             </div>
+            <a href="https://www.pizzerialimone.com/" target="_blank">
             <img src="images/directory-logos/dlogo-pizza.png">
+            </a>
         </div>
         <div class="soulstice d">
             <div class="d-info">
@@ -93,8 +115,12 @@
                 <p id="d6-phone"></p>
                 <p id="d6-link"></p>
             </div>
+            <a href="https://www.soulsticedayspa.com/" target="_blank">
             <img src="images/directory-logos/dlogo-spa.png">
+            </a>
         </div>
+    </div>
+    <div class="row">
         <div class="boxing d">
             <div class="d-info">
                 <h2 id="d7-name"></h2>
@@ -102,10 +128,50 @@
                 <p id="d7-phone"></p>
                 <p id="d7-link"></p>
             </div>
+            <a href="https://titleboxingclub.com/" target="_blank">
             <img src="images/directory-logos/dlogo-title.png">
+            </a>
         </div>
+</div>
+
     </div>
 
+<script>
+// For some reason, this code would only work as embedded 
+
+
+var elements = document.getElementsByClassName("d");
+
+var i;
+
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+
+
+  }
+}
+
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+
+
+  }
+}
+
+
+
+var container = document.getElementById("btnContainer");
+var btns = container.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+};
+</script>
 </main>
 <footer>
   <div class="bottom">
